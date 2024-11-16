@@ -312,6 +312,7 @@ void DlgSheetConf::accept()
                 range.from().toString(CellAddress::Cell::ShowColumn),
                 prop->getFullName(),
                 from.row()+2,
+                range.to().toString(CellAddress::Cell::ShowColumn),
                 prop->getFullName(),
                 from.row()+2);
         }
